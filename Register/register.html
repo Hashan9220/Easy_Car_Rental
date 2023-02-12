@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Css/register.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js"></script>
+    <title>Register Page</title>
+</head>
+<body>
+<div class="register">
+
+    <!--<div class="topic">-->
+    <!--    <h1>Register Fist!</h1>-->
+    <!--    <p>If You Needed Rent A Vehical So You Need To Be Register</p>-->
+    <!--</div>-->
+
+    <div class="name1">
+        <h1 class="from" style="color: #e3c51e;margin-top: 2%;margin-bottom: 3%">Register From</h1>
+
+      <form id="form">  <!--            <label id="name">Name</label>-->
+        <input class="name" id="name5" type="text" name="Name" placeholder="Name">
+        <input class="name" id="id" type="text" name="Id" placeholder="Id">
+        <!--            <lable id="password" >Password</lable>-->
+        <input class="name" id="pass" type="password" name="Password" placeholder="Password">
+        <!--            <label id="email">Email</label>-->
+        <input class="name" id="email" type="text" name="Email" placeholder="Email">
+        <input class="name" id="nic" type="text" name="Nic" placeholder="NIC">
+        <input class="name" id="licence" type="text" name="Licence" placeholder="Licence">
+        <input class="name" id="address" type="text" name="Address" placeholder="Address">
+        <input class="name" id="contact" type="text" name="Contact" placeholder="Contact">
+        <input type="file" class="custom-file-input">
+        <!--            <div class="fileupload">-->
+        <!--                -->
+        <!--&lt;!&ndash;                <input style="background: red" class="file" type="file" name="FileUpload" placeholder="File Upload">&ndash;&gt;-->
+        <!--            </div>-->
+
+
+        <button onclick="myFunction()" type="button" id="btn" class="btn"  > <a href="../index.html">Register</a></button>
+      </form>
+    </div>
+
+
+</div>
+
+<!--<script src="../JS/jquery-3.6.0.min.js"></script>-->
+
+<script>
+    $('#btn').click(function () {
+
+        let customerID=$("#id").val();
+        let customerName=$("#name5").val();
+        let customerpassword=$("#pass").val();
+        let customerEmail=$("#email").val();
+        let customerLicence=$("#licence").val();
+        let customerAddress=$('#address').val();
+        let customerContact=$("#contact").val();
+    // console.log("fuck")
+    // let formData= $("form").serialize();
+
+        $.ajax({
+            method:"POST",
+            url:"http://localhost:8080/Easy_Car_Rental_war_exploded/api/v1/register",
+           contentType:'application/json',
+            async:true,
+            data:JSON.stringify({
+            id:customerID,
+            name:customerName,
+            password:customerpassword,
+            email:customerEmail,
+            licence:customerLicence,
+            address:customerAddress,
+            contact:customerContact
+
+
+            }),
+            success:function (data) {
+
+
+            }
+            });
+
+    })
+    $(document).ready(() =>{
+        checkValidUser()
+    });
+    function myFunction() {
+        alert("Thanks for Register Click Ok Go Back Home page");
+    }
+
+</script>
+</body>
+</html>

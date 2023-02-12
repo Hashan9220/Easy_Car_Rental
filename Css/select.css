@@ -1,0 +1,270 @@
+
+
+body{
+    /*background-position: center;*/
+    /*background-size: auto;*/
+}
+.fist{
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    /*margin: auto;*/
+    margin-top: 100px;
+    border: 1px solid #000000;
+    left: 10%;
+
+}
+.fist .fist1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/2014-ford-mustang.jpg");
+}
+.fist h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.fist .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.fist .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn1{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 10%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.two{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 23%;
+    top: 100px;
+    border: 1px solid #000000;
+    left: 10%;
+
+}
+.two .two1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/BMW i8.jpg");
+}
+.two h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+
+.two .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.two .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn2{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.three{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 55.5%;
+    top: 100px;
+    border: 1px solid #000000;
+    left: 10%;
+
+}
+.three .three1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/BMW 320i 2008.jpg");
+}
+.three h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.three .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.three .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn3{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.four{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    /*margin-left: 55.5%;*/
+    margin-top: 20px;
+    border: 1px solid #000000;
+    /*left: 10%;*/
+
+}
+.four .four1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/Honda Civic 2017.jpg");
+}
+.four h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.four .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.four .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn4{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.five{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 23%;
+   margin-top: 20px;
+    border: 1px solid #000000;
+    left: 10%;
+
+}
+.five .five1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/Mercedes Benz 2012.jpg");
+}
+.five h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.five .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.five .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn5{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+.six{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 55.5%;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    left: 10%;
+
+}
+.six .six1{
+    /*background-color: #e91e63;*/
+    height:200px;
+    width: 400px;
+    background: url("../assent/vehical/vehical2/Nissan Sunny 2016.jpg");
+}
+.six h1{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 60px;
+}
+.six .three2{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 60px;
+}
+.six .three3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 60px;
+}
+#add-btn6{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 30%;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+#add-btn1:hover{
+    background: #000000;
+    color: #e3c51e;
+}
+#add-btn2:hover{
+    background: #000000;
+    color: #e3c51e;
+}
+#add-btn3:hover{
+    background: #000000;
+    color: #e3c51e;
+}
+#add-btn4:hover{
+    background: #000000;
+    color: #e3c51e;
+}
+#add-btn5:hover{
+    background: #000000;
+    color: #e3c51e;
+}
+#add-btn6:hover{
+    background: #000000;
+    color: #e3c51e;
+}

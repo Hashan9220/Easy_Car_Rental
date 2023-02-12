@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../Css/login.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js"></script>
+    <title>Register Page</title>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>LOGIN</h2>
+    <div class="form-container">
+        <form>
+            <label><b>Username</b></label>
+            <input type="text" id="email" placeholder="Enter Username" required>
+            <br>
+            <label><b>Password</b></label>
+            <input type="password" id="password2" placeholder="Enter Password" required>
+            <br><br>
+            <button onclick="myFunction()" type="button" id="button">LOGIN</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    $('#button').click (function ()  {
+
+        let custEmail = $("#email").val();
+        let custPassword = $("#password2").val();
+
+        $.ajax({
+            method: "GET",
+            url: "http://localhost:8080/Easy_Car_Rental_war_exploded/api/v1/login",
+            contentType: 'application/json',
+            async: true,
+            data: JSON.stringify({
+                email: custEmail,
+                password: custPassword
+
+            }),
+
+        })
+    })
+        $(document).ready(() =>{
+            checkValidUser()
+            console.log("dddd");
+        });
+        function myFunction() {
+            alert("Hellow! WelCome to Easy Car");
+        }
+</script>
+</body>
+</html>
